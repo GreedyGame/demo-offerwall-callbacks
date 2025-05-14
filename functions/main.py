@@ -10,7 +10,8 @@ from datetime import datetime
 # Initialize Firebase Admin SDK (only once)
 initialize_app()
 
-PUBSCALE_SECRET_KEY = "be00365b-99ed-4d31-89ca-4589ca75d8e5"
+#Get this value from the dashboard
+PUBSCALE_SECRET_KEY = "YOUR_SECRET_KEY"
 PUBSCALE_WHITELIST_IP = "34.100.236.68"
 
 # Example endpoint: /add_balance?value={value}&userId={userId}&token={token}&signature={signature}
